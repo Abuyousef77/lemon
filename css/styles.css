@@ -12,23 +12,31 @@ img {
   margin: 0 0 0 0;
 }
 
-.lemon {
+.grey-box {
+  width: 350px;
+  height:350px;
+  border: 30px solid grey;
+  position: absolute;
+  margin: 200px;
+}
+.blue-box {
     font-family: sans-serif;
     width: 300px;
     height: 300px;
     border: 5px solid #66b7ff;
     background-color: #c4e3ff;
-    color: purple;
+    color: #ae58bc;
     text-align: center;
+    font-size: large;
     position: relative;
-    margin: 300px 300px 300px 300px;
-};
+}
 
-.lemon #caption {
-  margin: 0;
-  position: absolute;
+ #caption {
+  padding: 1px;
+  margin: 10px 10px 10px 10px;
   top: 50%;
-  transform: translate(0, 50%);
-  background-color: grey;
-  border: 10px solid grey;
+  transform: translate(0, -50%);
+  background-color: lightgrey;
+  border: 2px solid grey;
+  font-size: small;
 }
