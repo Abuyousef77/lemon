@@ -15,14 +15,17 @@ img {
 .grey-box {
   width: 350px;
   height:350px;
+  padding: 20px;
   border: 30px solid grey;
+  margin: 200px 200px 200px 200px;
   position: absolute;
-  margin: 200px;
 }
 .blue-box {
     font-family: sans-serif;
     width: 300px;
     height: 300px;
+    padding: 5px;
+    margin: -25px 25px 25px -25px;
     border: 5px solid #66b7ff;
     background-color: #c4e3ff;
     color: #ae58bc;
@@ -39,4 +42,21 @@ img {
   background-color: lightgrey;
   border: 2px solid grey;
   font-size: small;
+}
+
+.purple-box {
+  width: 600px;
+  height:350px;
+  padding: 20px;
+  border: 3px solid #ae58bc;
+  margin: 200px 600px; 
+  float: right;
+  color: #ae58bc;
+  font-family: sans-serif;
+  position: absolute;
+}
+
+.purple-header {
+  margin: 0 0 50% 0;
+  padding: auto;
 }
