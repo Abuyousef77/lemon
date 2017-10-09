@@ -20,6 +20,7 @@ img {
   margin: 200px 200px 200px 200px;
   position: absolute;
 }
+
 .blue-box {
     font-family: sans-serif;
     width: 300px;
@@ -47,16 +48,37 @@ img {
 .purple-box {
   width: 600px;
   height:350px;
-  padding: 20px;
+  padding: 0;
   border: 3px solid #ae58bc;
-  margin: 200px 600px; 
+  margin: 200px 600px;
   float: right;
-  color: #ae58bc;
+  color: grey;
   font-family: sans-serif;
   position: absolute;
+  font-size: large;
 }
 
 .purple-header {
-  margin: 0 0 50% 0;
-  padding: auto;
+  width: 600px;
+  height:50px;
+  margin:0;
+  padding: 2px 2px 2px 200px;
+  border-bottom: 3px solid #ae58bc;
+  color: #ae58bc;
+  text-align: right;
+}
+
+.purple-text {
+  padding: 100px 100px 50px 100px;
+  text-align: center;
+}
+
+#numbers {
+  padding: 20px;
+}
+
+#letters {
+  float: left;
+  padding-left:60px;
+  padding-top:20px;
 }
